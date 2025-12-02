@@ -14,7 +14,6 @@ def p1():
             dial = dial % 100
             if dial == 0:
                 count = count + 1
-            print(direction, number, dial)
     print("count", count)
 
 
@@ -37,5 +36,5 @@ def p2():
     print("count", count)
 
 
-# p1()
+p1()
 p2()
